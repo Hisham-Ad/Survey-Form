@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Join The #1 Wealth Community For FREE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 id="title">Join The #1 Wealth Community For FREE</h1>
+  <p id="description">Enter Your Details To Proceed</p>
+
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label" for="name">First Name:
+        <input id="name" name="name" type="text" required placeholder="Enter your name" />
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label id="email-label" for="email">Email:
+        <input id="email" name="email" type="email" required placeholder="Enter your email" />
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label id="number-label" for="number">Age:
+        <input id="number" name="number" type="number" min="13" max="120" required placeholder="Enter your age" />
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label for="dropdown">How did you hear about us?
+        <select id="dropdown" name="referrer">
+          <option value="">Select one</option>
+          <option value="1">Social Media</option>
+          <option value="2">Friend</option>
+          <option value="3">Search</option>
+          <option value="4">Other</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Will you commit?</legend>
+      <label>
+        <input type="radio" name="commitment" value="yes" /> Yes
+      </label>
+      <label>
+        <input type="radio" name="commitment" value="maybe" /> Maybe
+      </label>
+      <label>
+        <input type="radio" name="commitment" value="no" /> No
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Select your interests:</legend>
+      <label>
+        <input type="checkbox" name="interests" value="wealth" /> Wealth Building
+      </label>
+      <label>
+        <input type="checkbox" name="interests" value="networking" /> Networking
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label for="comments">Any comments or suggestions?</label><br />
+      <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write here..."></textarea>
+    </fieldset>
+
+    <input id="submit" type="submit" value="Submit" />
+  </form>
+</body>
+</html>
